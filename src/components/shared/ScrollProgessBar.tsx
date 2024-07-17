@@ -1,4 +1,4 @@
-import { colors, Colors } from '@/styles/colorPalette'
+import { colors, Colors } from '@styles/colorPalette'
 import { SerializedStyles } from '@emotion/react'
 import { useEffect, useRef, useState } from 'react'
 
