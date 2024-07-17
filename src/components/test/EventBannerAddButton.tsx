@@ -1,5 +1,5 @@
-import { COLLECTIONS } from '@/constants/collection'
-import { EVENT_BANNERS } from '@/mock/banner'
+import { COLLECTIONS } from '@constants/collection'
+import { EVENT_BANNERS } from '@mock/banner'
 import { store } from '@remote/firebase'
 import Button from '@shared/Button'
 import { collection, doc, writeBatch } from 'firebase/firestore'

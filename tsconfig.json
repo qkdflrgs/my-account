@@ -21,7 +21,10 @@
       "@pages/*": ["src/pages/*"],
       "@remote/*": ["src/remote/*"],
       "@constants": ["src/constants/index"],
-      "@constants/*": ["src/constants/*"]
+      "@constants/*": ["src/constants/*"],
+      "@models/*": ["src/models/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@mock/*": ["src/mock/*"]
     },
     "jsxImportSource": "@emotion/react"
   },
