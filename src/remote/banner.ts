@@ -5,7 +5,7 @@ import { EventBanner } from '@models/banner'
 
 export async function getEventBanners({ hasAccount }: { hasAccount: boolean }) {
   const eventBannerQuery = query(
-    collection(store, COLLECTIONS.EVENT_BANNER),
+    collection(store, COLLECTIONS.BANNER),
     where('hasAccount', '==', hasAccount),
   )
 

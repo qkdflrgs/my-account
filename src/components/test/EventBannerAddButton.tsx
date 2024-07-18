@@ -9,7 +9,7 @@ export default function EventBannerAddButton() {
     const batch = writeBatch(store)
 
     EVENT_BANNERS.forEach((banner) => {
-      const bannerRef = doc(collection(store, COLLECTIONS.EVENT_BANNER))
+      const bannerRef = doc(collection(store, COLLECTIONS.BANNER))
 
       batch.set(bannerRef, banner)
     })
