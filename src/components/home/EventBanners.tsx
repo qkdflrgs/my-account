@@ -7,12 +7,13 @@ import Text from '@shared/Text'
 import { css } from '@emotion/react'
 import Skeleton from '@shared/Skeleton'
 import Image from 'next/image'
+import styled from '@emotion/styled'
 
 function EventBanners() {
   const { data } = useEventBanners()
 
   return (
-    <div>
+    <Container>
       <Swiper spaceBetween={8}>
         {data?.map((banner) => {
           return (
@@ -34,7 +35,7 @@ function EventBanners() {
           )
         })}
       </Swiper>
-    </div>
+    </Container>
   )
 }
 
@@ -43,6 +44,18 @@ const bannerStyles = css`
   border-radius: 8px;
 `
 
+const Container = styled.div`
+  padding: 24px;
+`
+
+export function BannerSkeleton() {
+  return (
+    <Container>
+      <Skeleton width="100%" height={96} style={{ borderRadius: 8 }} />
+    </Container>
+  )
+}
+
 export default withSuspense(EventBanners, {
-  fallback: <Skeleton width="100%" height={100} style={{ borderRadius: 8 }} />,
+  fallback: <BannerSkeleton />,
 })
