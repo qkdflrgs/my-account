@@ -24,7 +24,8 @@
       "@constants/*": ["src/constants/*"],
       "@models/*": ["src/models/*"],
       "@hooks/*": ["src/hooks/*"],
-      "@mock/*": ["src/mock/*"]
+      "@mock/*": ["src/mock/*"],
+      "@utils/*": ["src/utils/*"]
     },
     "jsxImportSource": "@emotion/react"
   },
