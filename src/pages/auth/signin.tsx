@@ -8,7 +8,7 @@ import {
   signIn,
 } from 'next-auth/react'
 import Spacing from '@shared/Spacing'
-import Button from '@/components/shared/Button'
+import Button from '@shared/Button'
 
 interface SigninPageProps {
   providers: Record<LiteralUnion<BuiltInProviderType>, ClientSafeProvider>
