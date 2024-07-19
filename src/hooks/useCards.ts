@@ -3,7 +3,7 @@ import { useQuery } from 'react-query'
 
 export default function useCards() {
   return useQuery({
-    queryKey: ['cards'],
+    queryKey: ['home-cards'],
     queryFn: () => getCards(),
     suspense: true,
   })
