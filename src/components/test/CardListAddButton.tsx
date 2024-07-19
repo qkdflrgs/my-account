@@ -1,4 +1,4 @@
-import { COLLECTIONS } from '@/constants/collection'
+import { COLLECTIONS } from '@constants/collection'
 import { CARD_LIST } from '@mock/card'
 import { store } from '@remote/firebase'
 import Button from '@shared/Button'

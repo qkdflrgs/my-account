@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import ReactMarkDown from 'react-markdown'
 import { css } from '@emotion/react'
-import { typographyMap } from '@/styles/typography'
+import { typographyMap } from '@styles/typography'
 import Button from '@shared/Button'
 
 const FixedBottomButton = dynamic(() => import('@shared/FixedBottomButton'), {
