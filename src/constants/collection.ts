@@ -1,4 +1,5 @@
 export const COLLECTIONS = {
   BANNER: 'EVENT_BANNER',
   CARD: 'CARD_LIST',
+  EVENT: 'EVENT',
 }
