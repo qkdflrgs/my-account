@@ -1,4 +1,4 @@
-import { Term } from '@models/account'
+import { AccountForm, Term } from '@models/account'
 
 export const TERM_LIST = [
   {
