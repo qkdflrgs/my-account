@@ -11,7 +11,7 @@ export interface Option {
 
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   label?: string
-  placeholder: string
+  placeholder?: string
   options: Option[]
 }
 
