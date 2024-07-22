@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query'
 import useUser from './useUser'
-import { getCredit } from '@/remote/credit'
+import { getCredit } from '@remote/credit'
 
 export default function useCredit() {
   const user = useUser()
