@@ -4,6 +4,11 @@ import { CreditScoreSkeleton } from '@components/home/CreditScore'
 import { BannerSkeleton } from '@components/home/EventBanners'
 import dynamic from 'next/dynamic'
 import { CardListSkeleton } from '@components/home/CardList'
+import { GetServerSidePropsContext } from 'next'
+import { getSession } from 'next-auth/react'
+import { dehydrate, QueryClient } from 'react-query'
+import { User } from '@/models/user'
+import { getAccount } from '@/remote/account'
 
 const EventBanners = dynamic(() => import('@components/home/EventBanners'), {
   ssr: false,
@@ -31,4 +36,27 @@ export default function Home() {
       <CardList />
     </>
   )
+}
+
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const session = await getSession(context)
+
+  if (session != null && session.user != null) {
+    const client = new QueryClient()
+
+    await client.prefetchQuery({
+      queryKey: ['account', (session.user as User).id],
+      queryFn: () => getAccount((session.user as User).id),
+    })
+
+    return {
+      props: {
+        dehydratedState: JSON.parse(JSON.stringify(dehydrate(client))),
+      },
+    }
+  }
+
+  return {
+    props: {},
+  }
 }
