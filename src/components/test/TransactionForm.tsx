@@ -11,7 +11,7 @@ import { Transaction } from '@/models/transaction'
 export default function TransactionForm() {
   const [formValues, setFormValues] = useState({
     userId: '',
-    type: 'diposit',
+    type: 'deposit',
     amount: '',
     displayText: '',
   })
