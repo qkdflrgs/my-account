@@ -1,3 +1,5 @@
+import { TransactionFilterType } from '@models/transaction'
+
 export const MAX_SCORE_OF_CREDIT = 1_000
 export const LAST_STEP = 2
 export const VALIDATION_MESSAGE_MAP: {
@@ -19,3 +21,17 @@ export const VALIDATION_MESSAGE_MAP: {
     message: '휴대전화번호를 확인해주세요',
   },
 }
+export const FILTERS: Array<{ label: string; value: TransactionFilterType }> = [
+  {
+    label: '전체',
+    value: 'all',
+  },
+  {
+    label: '입금',
+    value: 'deposit',
+  },
+  {
+    label: '출금',
+    value: 'withdraw',
+  },
+]
