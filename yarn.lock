@@ -1550,6 +1550,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@visx/event@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@visx/event@npm:3.3.0"
+  dependencies:
+    "@types/react": "npm:*"
+    "@visx/point": "npm:3.3.0"
+  checksum: 10c0/bcf7eae045e3619d12b69a9324b6f73bfdc0817c8e3e6572cefcf21db5d877926c810aad4a3b481ec2eeca212f7e2711a7d7ad32e8c058ccd65a99b5d45a40b1
+  languageName: node
+  linkType: hard
+
 "@visx/group@npm:3.3.0, @visx/group@npm:^3.3.0":
   version: 3.3.0
   resolution: "@visx/group@npm:3.3.0"
@@ -4586,6 +4596,7 @@ __metadata:
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     "@visx/axis": "npm:^3.10.1"
+    "@visx/event": "npm:^3.3.0"
     "@visx/group": "npm:^3.3.0"
     "@visx/responsive": "npm:^3.10.2"
     "@visx/scale": "npm:^3.5.0"

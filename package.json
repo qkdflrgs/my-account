@@ -12,6 +12,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@visx/axis": "^3.10.1",
+    "@visx/event": "^3.3.0",
     "@visx/group": "^3.3.0",
     "@visx/responsive": "^3.10.2",
     "@visx/scale": "^3.5.0",

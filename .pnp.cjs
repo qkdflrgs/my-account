@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@visx/axis", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.1"],\
+          ["@visx/event", "npm:3.3.0"],\
           ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["@visx/scale", "npm:3.5.0"],\
@@ -2389,6 +2390,17 @@ const RAW_RUNTIME_STATE =
           ["@visx/curve", "npm:3.3.0"],\
           ["@types/d3-shape", "npm:1.3.12"],\
           ["d3-shape", "npm:1.3.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@visx/event", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/@visx-event-npm-3.3.0-cd46476b8b-10c0.zip/node_modules/@visx/event/",\
+        "packageDependencies": [\
+          ["@visx/event", "npm:3.3.0"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@visx/point", "npm:3.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6038,6 +6050,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@visx/axis", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.1"],\
+          ["@visx/event", "npm:3.3.0"],\
           ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["@visx/scale", "npm:3.5.0"],\
