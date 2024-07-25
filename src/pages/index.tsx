@@ -7,8 +7,8 @@ import { CardListSkeleton } from '@components/home/CardList'
 import { GetServerSidePropsContext } from 'next'
 import { getSession } from 'next-auth/react'
 import { dehydrate, QueryClient } from 'react-query'
-import { User } from '@/models/user'
-import { getAccount } from '@/remote/account'
+import { User } from '@models/user'
+import { getAccount } from '@remote/account'
 
 const EventBanners = dynamic(() => import('@components/home/EventBanners'), {
   ssr: false,
