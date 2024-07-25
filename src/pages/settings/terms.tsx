@@ -1,9 +1,15 @@
 import useUser from '@hooks/useUser'
-import { getTerms } from '@remote/account'
+import { getTerms, updateTerms } from '@remote/account'
 import { User } from '@models/user'
 import { GetServerSidePropsContext } from 'next'
 import { getSession } from 'next-auth/react'
-import { dehydrate, QueryClient, useQuery } from 'react-query'
+import {
+  dehydrate,
+  QueryClient,
+  useMutation,
+  useQuery,
+  useQueryClient,
+} from 'react-query'
 import { useMemo } from 'react'
 import { TERM_LIST } from '@constants/account'
 import Top from '@shared/Top'
@@ -13,11 +19,21 @@ import Button from '@shared/Button'
 
 export default function TermsPage() {
   const user = useUser()
+  const client = useQueryClient()
   const { data } = useQuery({
     queryKey: ['terms', user?.id],
     queryFn: () => getTerms(user?.id as string),
     enabled: user != null,
   })
+
+  const { mutate, isLoading } = useMutation(
+    (termIds: string[]) => updateTerms(user?.id as string, termIds),
+    {
+      onSuccess: () => {
+        client.invalidateQueries(['terms', user?.id])
+      },
+    },
+  )
 
   const agreedTerms = useMemo(() => {
     if (data == null) {
@@ -42,6 +58,16 @@ export default function TermsPage() {
     return { mandatoryTerms, nonMandatoryTerms }
   }, [data])
 
+  const handleDisagree = (selectedTermId: string) => {
+    const updatedTermIds = data?.termIds.filter(
+      (termId) => selectedTermId !== termId,
+    )
+
+    if (updatedTermIds != null) {
+      mutate(updatedTermIds)
+    }
+  }
+
   return (
     <div>
       <Top title="약관" subTitle="약관 리스트 및 철회" />
@@ -63,7 +89,14 @@ export default function TermsPage() {
               contents={
                 <ListRow.Texts title={`[선택] ${term.title}`} subTitle="" />
               }
-              right={<Button>철회</Button>}
+              right={
+                <Button
+                  disabled={isLoading === true}
+                  onClick={() => handleDisagree(term.id)}
+                >
+                  철회
+                </Button>
+              }
             />
           ))}
         </ul>
