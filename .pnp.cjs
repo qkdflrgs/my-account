@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:14.2.5"],\
@@ -1992,6 +1993,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/lodash", [\
+      ["npm:4.17.7", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-lodash-npm-4.17.7-2077805efb-10c0.zip/node_modules/@types/lodash/",\
+        "packageDependencies": [\
+          ["@types/lodash", "npm:4.17.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/mdast", [\
       ["npm:4.0.4", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-mdast-npm-4.0.4-a4a0135eb0-10c0.zip/node_modules/@types/mdast/",\
@@ -2181,6 +2191,31 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@ungap-structured-clone-npm-1.2.0-648f0b82e0-10c0.zip/node_modules/@ungap/structured-clone/",\
         "packageDependencies": [\
           ["@ungap/structured-clone", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@visx/responsive", [\
+      ["npm:3.10.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/@visx-responsive-npm-3.10.2-5201591cde-10c0.zip/node_modules/@visx/responsive/",\
+        "packageDependencies": [\
+          ["@visx/responsive", "npm:3.10.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2", {\
+        "packageLocation": "./.yarn/__virtual__/@visx-responsive-virtual-c57eb03164/4/.yarn/berry/cache/@visx-responsive-npm-3.10.2-5201591cde-10c0.zip/node_modules/@visx/responsive/",\
+        "packageDependencies": [\
+          ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
+          ["@types/lodash", "npm:4.17.7"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["lodash", "npm:4.17.21"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4899,6 +4934,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lodash", [\
+      ["npm:4.17.21", {\
+        "packageLocation": "../../../.yarn/berry/cache/lodash-npm-4.17.21-6382451519-10c0.zip/node_modules/lodash/",\
+        "packageDependencies": [\
+          ["lodash", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lodash.camelcase", [\
       ["npm:4.3.0", {\
         "packageLocation": "../../../.yarn/berry/cache/lodash.camelcase-npm-4.3.0-bf268e3bf0-10c0.zip/node_modules/lodash.camelcase/",\
@@ -5462,6 +5506,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:14.2.5"],\
