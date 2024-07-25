@@ -12,6 +12,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@visx/responsive": "^3.10.2",
+    "@visx/shape": "^3.5.0",
     "date-fns": "^3.6.0",
     "firebase": "^10.12.3",
     "framer-motion": "^11.3.7",
