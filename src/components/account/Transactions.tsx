@@ -4,9 +4,9 @@ import Text from '@shared/Text'
 import Flex from '@shared/Flex'
 import ListRow from '../shared/ListRow'
 import { format, parseISO } from 'date-fns'
-import addDelimiter from '@/utils/addDelimiter'
+import addDelimiter from '@utils/addDelimiter'
 import Link from 'next/link'
-import Button from '../shared/Button'
+import Button from '@shared/Button'
 
 function Transactions() {
   const { data } = useTransactions({ suspense: true })

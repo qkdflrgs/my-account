@@ -3,10 +3,10 @@ import Flex from '@shared/Flex'
 import TextField from '@shared/TextField'
 import Select from '@shared/Select'
 import Spacing from '@shared/Spacing'
-import Button from '../shared/Button'
-import { getAccount, updateAccountBalance } from '@/remote/account'
-import { createTransaction } from '@/remote/transaction'
-import { Transaction } from '@/models/transaction'
+import Button from '@shared/Button'
+import { getAccount, updateAccountBalance } from '@remote/account'
+import { createTransaction } from '@remote/transaction'
+import { Transaction } from '@models/transaction'
 
 export default function TransactionForm() {
   const [formValues, setFormValues] = useState({
