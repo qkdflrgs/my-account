@@ -2,6 +2,7 @@ import { TransactionFilterType } from '@models/transaction'
 
 export const MAX_SCORE_OF_CREDIT = 1_000
 export const LAST_STEP = 2
+export const MONTHLY_CHART_VERTICAL_MARGIN = 120
 export const VALIDATION_MESSAGE_MAP: {
   [key: string]: {
     value: RegExp
