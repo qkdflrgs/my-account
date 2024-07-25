@@ -1545,7 +1545,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/scale@npm:3.5.0":
+"@visx/scale@npm:3.5.0, @visx/scale@npm:^3.5.0":
   version: 3.5.0
   resolution: "@visx/scale@npm:3.5.0"
   dependencies:
@@ -4495,6 +4495,7 @@ __metadata:
     "@types/react-dom": "npm:^18"
     "@visx/group": "npm:^3.3.0"
     "@visx/responsive": "npm:^3.10.2"
+    "@visx/scale": "npm:^3.5.0"
     "@visx/shape": "npm:^3.5.0"
     date-fns: "npm:^3.6.0"
     eslint: "npm:^8"

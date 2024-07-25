@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
+          ["@visx/scale", "npm:3.5.0"],\
           ["@visx/shape", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.5.0"],\
           ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
@@ -5889,6 +5890,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
+          ["@visx/scale", "npm:3.5.0"],\
           ["@visx/shape", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.5.0"],\
           ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
