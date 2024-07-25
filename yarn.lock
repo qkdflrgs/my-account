@@ -1518,7 +1518,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/group@npm:3.3.0":
+"@visx/group@npm:3.3.0, @visx/group@npm:^3.3.0":
   version: 3.3.0
   resolution: "@visx/group@npm:3.3.0"
   dependencies:
@@ -4493,6 +4493,7 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
+    "@visx/group": "npm:^3.3.0"
     "@visx/responsive": "npm:^3.10.2"
     "@visx/shape": "npm:^3.5.0"
     date-fns: "npm:^3.6.0"

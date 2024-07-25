@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["@visx/shape", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.5.0"],\
           ["date-fns", "npm:3.6.0"],\
@@ -2341,10 +2342,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:51f0ffb6ed957b9e77ea4ff88f47f4bf886e0ff1f5955d33b2a069e41977a7c9432643c4a54a7d0279c0421ea9d7f9151a3a13f2ab9963fe0301ca3409146d68#npm:3.3.0", {\
-        "packageLocation": "./.yarn/__virtual__/@visx-group-virtual-3e7e9aad8b/4/.yarn/berry/cache/@visx-group-npm-3.3.0-71ba7d3d01-10c0.zip/node_modules/@visx/group/",\
+      ["virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/@visx-group-virtual-4be1d7e705/4/.yarn/berry/cache/@visx-group-npm-3.3.0-71ba7d3d01-10c0.zip/node_modules/@visx/group/",\
         "packageDependencies": [\
-          ["@visx/group", "virtual:51f0ffb6ed957b9e77ea4ff88f47f4bf886e0ff1f5955d33b2a069e41977a7c9432643c4a54a7d0279c0421ea9d7f9151a3a13f2ab9963fe0301ca3409146d68#npm:3.3.0"],\
+          ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["classnames", "npm:2.5.1"],\
           ["prop-types", "npm:15.8.1"],\
@@ -2409,7 +2410,7 @@ const RAW_RUNTIME_STATE =
           ["@types/lodash", "npm:4.17.7"],\
           ["@types/react", "npm:18.3.3"],\
           ["@visx/curve", "npm:3.3.0"],\
-          ["@visx/group", "virtual:51f0ffb6ed957b9e77ea4ff88f47f4bf886e0ff1f5955d33b2a069e41977a7c9432643c4a54a7d0279c0421ea9d7f9151a3a13f2ab9963fe0301ca3409146d68#npm:3.3.0"],\
+          ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/scale", "npm:3.5.0"],\
           ["classnames", "npm:2.5.1"],\
           ["d3-path", "npm:1.0.9"],\
@@ -5886,6 +5887,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["@visx/shape", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.5.0"],\
           ["date-fns", "npm:3.6.0"],\
