@@ -16,6 +16,7 @@
     "@visx/responsive": "^3.10.2",
     "@visx/scale": "^3.5.0",
     "@visx/shape": "^3.5.0",
+    "@visx/tooltip": "^3.3.0",
     "date-fns": "^3.6.0",
     "firebase": "^10.12.3",
     "framer-motion": "^11.3.7",
