@@ -1508,6 +1508,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@visx/axis@npm:^3.10.1":
+  version: 3.10.1
+  resolution: "@visx/axis@npm:3.10.1"
+  dependencies:
+    "@types/react": "npm:*"
+    "@visx/group": "npm:3.3.0"
+    "@visx/point": "npm:3.3.0"
+    "@visx/scale": "npm:3.5.0"
+    "@visx/shape": "npm:3.5.0"
+    "@visx/text": "npm:3.3.0"
+    classnames: "npm:^2.3.1"
+    prop-types: "npm:^15.6.0"
+  peerDependencies:
+    react: ^16.3.0-0 || ^17.0.0-0 || ^18.0.0-0
+  checksum: 10c0/163b5c216f52f4a3fa931bb92dc417cc8b184f76ee5095373f1d8026f32ce3530b689d2bd06ae8c1803927cad377f3a814cebcc9d50b48f969e158e2c2fcf0ce
+  languageName: node
+  linkType: hard
+
 "@visx/curve@npm:3.3.0":
   version: 3.3.0
   resolution: "@visx/curve@npm:3.3.0"
@@ -1528,6 +1546,13 @@ __metadata:
   peerDependencies:
     react: ^16.0.0-0 || ^17.0.0-0 || ^18.0.0-0
   checksum: 10c0/43ab4fc285cb1a0f9bae8aa5e1ac906f207163da4bd3104f431141b21e5987fe86dafee70808b074c3644aa2b117768997d35e18fe3e695008599a62759982fc
+  languageName: node
+  linkType: hard
+
+"@visx/point@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@visx/point@npm:3.3.0"
+  checksum: 10c0/cf7b6dc16f9ddedadba7278302ccbcf486412d82b6bcbfb2033f5206b00ae5b22c30015b5927b3b298e74895130745f8ca87a483d935d120e198890fca97f1eb
   languageName: node
   linkType: hard
 
@@ -1554,7 +1579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@visx/shape@npm:^3.5.0":
+"@visx/shape@npm:3.5.0, @visx/shape@npm:^3.5.0":
   version: 3.5.0
   resolution: "@visx/shape@npm:3.5.0"
   dependencies:
@@ -1573,6 +1598,22 @@ __metadata:
   peerDependencies:
     react: ^16.3.0-0 || ^17.0.0-0 || ^18.0.0-0
   checksum: 10c0/77c45ac09926c3398aab511b3c8d2cf2f77a86ddad13c171c118a81febb8bcbc9f7061751d483eb4ae9f86f5d935b5532b5b5e6e93dc4056bcc4793ece1e6333
+  languageName: node
+  linkType: hard
+
+"@visx/text@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@visx/text@npm:3.3.0"
+  dependencies:
+    "@types/lodash": "npm:^4.14.172"
+    "@types/react": "npm:*"
+    classnames: "npm:^2.3.1"
+    lodash: "npm:^4.17.21"
+    prop-types: "npm:^15.7.2"
+    reduce-css-calc: "npm:^1.3.0"
+  peerDependencies:
+    react: ^16.3.0-0 || ^17.0.0-0 || ^18.0.0-0
+  checksum: 10c0/78595c535934775c5ce5d2bb8a926608e0119b24cfab9bed12221fcb88a9fbccdd8775339b130b1dbf555c32a356e71db23cb9e0387a320ec5ca9be95f6d9c20
   languageName: node
   linkType: hard
 
@@ -1859,6 +1900,13 @@ __metadata:
   version: 2.0.2
   resolution: "bail@npm:2.0.2"
   checksum: 10c0/25cbea309ef6a1f56214187004e8f34014eb015713ea01fa5b9b7e9e776ca88d0fdffd64143ac42dc91966c915a4b7b683411b56e14929fad16153fc026ffb8b
+  languageName: node
+  linkType: hard
+
+"balanced-match@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "balanced-match@npm:0.4.2"
+  checksum: 10c0/cd4e15add0f4ef14c4fe960d9f4a343052d7c0f7939e1b5e54c8f24417a501bde1f17e191b676daebd16ae316955c918f93b8ed0414bb03d038dd0159c9998e5
   languageName: node
   linkType: hard
 
@@ -4048,6 +4096,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"math-expression-evaluator@npm:^1.2.14":
+  version: 1.4.0
+  resolution: "math-expression-evaluator@npm:1.4.0"
+  checksum: 10c0/e90ee90026d53aeb80596046442e562a469b65b9e5f877dd0280d481478615b96d9de0049a7bc9cfbe97cf2147b2619300c54294f0967ca7d9e462ce0a678cc5
+  languageName: node
+  linkType: hard
+
 "mdast-util-from-markdown@npm:^2.0.0":
   version: 2.0.1
   resolution: "mdast-util-from-markdown@npm:2.0.1"
@@ -4493,6 +4548,7 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
+    "@visx/axis": "npm:^3.10.1"
     "@visx/group": "npm:^3.3.0"
     "@visx/responsive": "npm:^3.10.2"
     "@visx/scale": "npm:^3.5.0"
@@ -4956,7 +5012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.10, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.10, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -5092,6 +5148,26 @@ __metadata:
   dependencies:
     loose-envify: "npm:^1.1.0"
   checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
+  languageName: node
+  linkType: hard
+
+"reduce-css-calc@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "reduce-css-calc@npm:1.3.0"
+  dependencies:
+    balanced-match: "npm:^0.4.2"
+    math-expression-evaluator: "npm:^1.2.14"
+    reduce-function-call: "npm:^1.0.1"
+  checksum: 10c0/c0b192bbdc7617ee7e3bcd09332f7f810c2b52f1da8521c4eda03879ead00bcca65bcae78d5bc8cd925610f776532a3457e8b2fd8f4bb936bdb40f057590f20d
+  languageName: node
+  linkType: hard
+
+"reduce-function-call@npm:^1.0.1":
+  version: 1.0.3
+  resolution: "reduce-function-call@npm:1.0.3"
+  dependencies:
+    balanced-match: "npm:^1.0.0"
+  checksum: 10c0/7e844708d8c3d2946d3df5c537ee1e23c3c60c98ac0dbc724828f36d8d309c391a14995f47ce4f5ba84eea2df5c73d58e4ba100ba331af496920932421a322ed
   languageName: node
   linkType: hard
 

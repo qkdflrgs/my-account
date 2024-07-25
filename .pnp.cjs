@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@visx/axis", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.1"],\
           ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["@visx/scale", "npm:3.5.0"],\
@@ -2324,6 +2325,35 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@visx/axis", [\
+      ["npm:3.10.1", {\
+        "packageLocation": "../../../.yarn/berry/cache/@visx-axis-npm-3.10.1-ed9e79c974-10c0.zip/node_modules/@visx/axis/",\
+        "packageDependencies": [\
+          ["@visx/axis", "npm:3.10.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.1", {\
+        "packageLocation": "./.yarn/__virtual__/@visx-axis-virtual-a2eda9c10e/4/.yarn/berry/cache/@visx-axis-npm-3.10.1-ed9e79c974-10c0.zip/node_modules/@visx/axis/",\
+        "packageDependencies": [\
+          ["@visx/axis", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.1"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
+          ["@visx/point", "npm:3.3.0"],\
+          ["@visx/scale", "npm:3.5.0"],\
+          ["@visx/shape", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.5.0"],\
+          ["@visx/text", "virtual:a2eda9c10e953bfe089587d35b5abd40b6a50e73c46e78515f0da5845caaba20b5f791a02a83a83d2fef0e6c183617b3ae9657c357c4070cff485de07e2da1bf#npm:3.3.0"],\
+          ["classnames", "npm:2.5.1"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@visx/curve", [\
       ["npm:3.3.0", {\
         "packageLocation": "../../../.yarn/berry/cache/@visx-curve-npm-3.3.0-51e0817b55-10c0.zip/node_modules/@visx/curve/",\
@@ -2355,6 +2385,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/react",\
           "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@visx/point", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/@visx-point-npm-3.3.0-d58036346a-10c0.zip/node_modules/@visx/point/",\
+        "packageDependencies": [\
+          ["@visx/point", "npm:3.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2419,6 +2458,33 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.17.21"],\
           ["prop-types", "npm:15.8.1"],\
           ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@visx/text", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/@visx-text-npm-3.3.0-ae0b767950-10c0.zip/node_modules/@visx/text/",\
+        "packageDependencies": [\
+          ["@visx/text", "npm:3.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a2eda9c10e953bfe089587d35b5abd40b6a50e73c46e78515f0da5845caaba20b5f791a02a83a83d2fef0e6c183617b3ae9657c357c4070cff485de07e2da1bf#npm:3.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/@visx-text-virtual-80c9f5c839/4/.yarn/berry/cache/@visx-text-npm-3.3.0-ae0b767950-10c0.zip/node_modules/@visx/text/",\
+        "packageDependencies": [\
+          ["@visx/text", "virtual:a2eda9c10e953bfe089587d35b5abd40b6a50e73c46e78515f0da5845caaba20b5f791a02a83a83d2fef0e6c183617b3ae9657c357c4070cff485de07e2da1bf#npm:3.3.0"],\
+          ["@types/lodash", "npm:4.17.7"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["classnames", "npm:2.5.1"],\
+          ["lodash", "npm:4.17.21"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:18.3.1"],\
+          ["reduce-css-calc", "npm:1.3.0"]\
         ],\
         "packagePeers": [\
           "@types/react",\
@@ -2754,6 +2820,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["balanced-match", [\
+      ["npm:0.4.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/balanced-match-npm-0.4.2-5dd9e29997-10c0.zip/node_modules/balanced-match/",\
+        "packageDependencies": [\
+          ["balanced-match", "npm:0.4.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:1.0.2", {\
         "packageLocation": "../../../.yarn/berry/cache/balanced-match-npm-1.0.2-a53c126459-10c0.zip/node_modules/balanced-match/",\
         "packageDependencies": [\
@@ -5399,6 +5472,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["math-expression-evaluator", [\
+      ["npm:1.4.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/math-expression-evaluator-npm-1.4.0-43a0d3d222-10c0.zip/node_modules/math-expression-evaluator/",\
+        "packageDependencies": [\
+          ["math-expression-evaluator", "npm:1.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["mdast-util-from-markdown", [\
       ["npm:2.0.1", {\
         "packageLocation": "../../../.yarn/berry/cache/mdast-util-from-markdown-npm-2.0.1-37ffa6064d-10c0.zip/node_modules/mdast-util-from-markdown/",\
@@ -5888,6 +5970,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["@visx/axis", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.1"],\
           ["@visx/group", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.3.0"],\
           ["@visx/responsive", "virtual:7816f9240efec9605a66e0adb923e8fc34f7fe7f8119580611de3cba8bc670d37218f2a87e1decd09c7fa7c3972c51f8bb4033e6ed03ba877253528ab4ea4ce6#npm:3.10.2"],\
           ["@visx/scale", "npm:3.5.0"],\
@@ -6642,6 +6725,28 @@ const RAW_RUNTIME_STATE =
           "react-dom",\
           "react-native",\
           "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["reduce-css-calc", [\
+      ["npm:1.3.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/reduce-css-calc-npm-1.3.0-12b3b97155-10c0.zip/node_modules/reduce-css-calc/",\
+        "packageDependencies": [\
+          ["reduce-css-calc", "npm:1.3.0"],\
+          ["balanced-match", "npm:0.4.2"],\
+          ["math-expression-evaluator", "npm:1.4.0"],\
+          ["reduce-function-call", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["reduce-function-call", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/reduce-function-call-npm-1.0.3-312d0d456c-10c0.zip/node_modules/reduce-function-call/",\
+        "packageDependencies": [\
+          ["reduce-function-call", "npm:1.0.3"],\
+          ["balanced-match", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
