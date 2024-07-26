@@ -11,6 +11,7 @@ import Image from 'next/image'
 import Flex from '@shared/Flex'
 import Text from '@shared/Text'
 import dynamic from 'next/dynamic'
+import SEO from '@shared/SEO'
 
 const FixedBottomButton = dynamic(() => import('@shared/FixedBottomButton'), {
   ssr: false,
@@ -37,6 +38,11 @@ export default function CardDetailPage({ initialCard }: CardDetailPageProps) {
 
   return (
     <div>
+      <SEO
+        title={`${data.corpName} ${data.name}`}
+        description={subTitle}
+        image="https://cdn4.iconfinder.com/data/icons/business-1221/24/Piggy_Bank-512.png"
+      />
       <Top title={`${data.corpName} ${data.name}`} subTitle={subTitle} />
       <ul>
         {data.benefit.map((text, index) => (
