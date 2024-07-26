@@ -12,7 +12,7 @@ import { getSession } from 'next-auth/react'
 import { useCallback, useState } from 'react'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { dehydrate, QueryClient } from 'react-query'
-import { FILTERS } from '@constants'
+import { FILTERS } from '@mock/transaction'
 import { TransactionFilterType } from '@models/transaction'
 
 function TransactionsPage() {

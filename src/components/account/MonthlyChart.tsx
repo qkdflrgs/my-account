@@ -9,7 +9,7 @@ import { AxisBottom } from '@visx/axis'
 import { format, parseISO } from 'date-fns'
 import { useTooltip, useTooltipInPortal, defaultStyles } from '@visx/tooltip'
 import { localPoint } from '@visx/event'
-import addDelimiter from '@/utils/addDelimiter'
+import addDelimiter from '@utils/addDelimiter'
 
 type ChartData = {
   date: string
