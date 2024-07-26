@@ -10,7 +10,7 @@ import {
   where,
 } from 'firebase/firestore'
 import { store } from './firebase'
-import { COLLECTIONS } from '@/constants/collection'
+import { COLLECTIONS } from '@constants/collection'
 
 export function createPiggybank(newPiggybank: Piggybank) {
   return setDoc(doc(collection(store, COLLECTIONS.PIGGYBANK)), newPiggybank)

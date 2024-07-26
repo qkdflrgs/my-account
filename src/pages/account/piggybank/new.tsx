@@ -7,8 +7,8 @@ import dynamic from 'next/dynamic'
 import { ChangeEvent, useCallback, useMemo, useState } from 'react'
 import useUser from '@hooks/useUser'
 import { useMutation } from 'react-query'
-import { createPiggybank } from '@/remote/piggybank'
-import { useAlertContext } from '@/contexts/AlertContext'
+import { createPiggybank } from '@remote/piggybank'
+import { useAlertContext } from '@contexts/AlertContext'
 
 const FixedBottomButton = dynamic(() => import('@shared/FixedBottomButton'), {
   ssr: false,

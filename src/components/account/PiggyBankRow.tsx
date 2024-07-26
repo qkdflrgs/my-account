@@ -4,11 +4,11 @@ import { useRouter } from 'next/router'
 import withSuspense from '@shared/hocs/withSuspense'
 import useUser from '@hooks/useUser'
 import { useQuery } from 'react-query'
-import { getPiggybank } from '@/remote/piggybank'
+import { getPiggybank } from '@remote/piggybank'
 import { differenceInDays } from 'date-fns'
 import Flex from '@shared/Flex'
 import Text from '@shared/Text'
-import addDelimiter from '@/utils/addDelimiter'
+import addDelimiter from '@utils/addDelimiter'
 
 function PiggyBankRow() {
   const navigate = useRouter()
