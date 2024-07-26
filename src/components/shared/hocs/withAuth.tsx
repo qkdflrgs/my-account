@@ -9,7 +9,11 @@ export default function withAuth<Props = Record<string, never>>(
     const { data, status } = useSession()
     const navigate = useRouter()
 
-    if (status !== 'loading' && data == null) {
+    if (status === 'loading') {
+      return null
+    }
+
+    if (data == null) {
       navigate.replace('/auth/signin')
 
       return null
